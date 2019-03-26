@@ -22,4 +22,5 @@ steps:
 - task: PublishBuildArtifacts@1
   inputs:
     artifactName: 'artifactName'
+    TargetPath: 'dest'
 
